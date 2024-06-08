@@ -1,7 +1,6 @@
 #Escaner de puertos y vulnerabilidades (Basico)
 import socket
 
-
 def scan_ports(target_ip, start_port, end_port):
     """
     Escáner de puertos básico que verifica si un rango de puertos está abierto en una dirección IP específica.
